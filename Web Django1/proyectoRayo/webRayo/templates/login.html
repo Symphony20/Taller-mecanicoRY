@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+{% block css %}
+{% endblock css %}
+
+
+
+ {% block contenido %}   
+ 
+  <section id="formularioC" onsubmit="return validar()">
+              <form action="" method="post">
+                  <h1>Ingrese sus Datos de registro</h1>
+                  <div class="contenedor-input">
+                      <input type="text"placeholder="Ingrese nombre de usuario" class="col-p" name="txtNombre" id="txtNombre">
+                      
+                
+                     
+                      <input type="password" class="col-p" placeholder="ingrese pasword"name="pwdPass1" id="pwdPass1">
+                      <input type="password" class="col-p" placeholder="repita pasword" name="pwdPass2" id="pwdPass2">
+
+                      <input type="submit"class="col-p" value="Enviar">
+                      <input type="reset" class="col-p"value="Limpiar">
+
+                  </div>
+
+
+              </form>
+  </section>
+  {% endblock contenido %}
+
+    
+  {% block js%}
+    <script>src="{% static 'js/validaciones.js' %}"</script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}" ></script>
+ 
+  {% endblock js %}
+  
+
+</body>
+</html>

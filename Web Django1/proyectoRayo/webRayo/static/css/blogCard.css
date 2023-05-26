@@ -1,0 +1,32 @@
+#blogCard{
+    font-family: cursive;
+    text-align: center;
+    color: aquamarine;
+    background-color: brown;
+}
+#blogcard{
+    font-family: cursive;
+    text-align: center;
+    color: aquamarine;
+    background-color: brown;
+
+}
+#blogCard .contendor img{
+    width: 300;
+    height: 250;
+    border: solid 2px brown;
+    border-radius: 20px;
+}
+#blogCard .contendor{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    flex-wrap: wrap;
+    color: rgb(158, 97, 23);
+
+}
+#blogCard .contendor article{
+    margin: 10px;
+    
+    
+}

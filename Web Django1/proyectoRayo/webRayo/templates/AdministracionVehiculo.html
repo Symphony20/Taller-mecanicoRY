@@ -1,0 +1,48 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block css %}
+{% endblock css %}
+
+
+
+
+  
+
+
+
+  {% block contenido %}      
+  <section id="formularioC">
+    <form action="" method="post">
+        <h1>Ingrese Datos de Vehiculo</h1>
+        <div class="contenedor-input">
+            <input type="text"placeholder="Ingrese Patente" class="col-p" name="txtPatente" id="txtPatente">
+            <input type="text"placeholder="Ingrese Modelo" class="col-p" name="txtModelo" id="txtModelo">
+            <input type="text"placeholder="Ingrese Marca" class="col-p" name="txtRut" id="txtRut">
+            <input type="date"placeholder="Ingrese AÑO" class="col-p" name="datAño" id="datAño">
+            <input type="text"placeholder="Ingrese Marca" class="col-p" name="txtRut" id="txtRut">
+            <textarea name="txtDescri" id="txtDescri" cols="30" rows="10">
+            </textarea>
+            <input class="col-g" type="file" name="txtImg" id="txtImg">
+
+            <select class="col-g" name="cboCategoria" id="cboCategoria">
+
+            </select>
+            <input type="submit"class="col-p" value="Enviar">
+            <input type="reset" class="col-p"value="Limpiar">
+
+        </div>
+
+
+    </form>
+</section>
+  {% endblock contenido %}
+
+    {% block js%}
+      <script>src="{% static 'js/validaciones.js' %}"</script>
+      <script src="{% static 'js/bootstrap.bundle.min.js'%}" ></script>
+ 
+    {% endblock js %}
+
+</body>
+</html>

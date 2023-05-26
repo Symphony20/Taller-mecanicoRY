@@ -1,0 +1,39 @@
+#formularioC{
+    background-color: brown;
+    color: aquamarine;
+    padding: 50px;
+}
+#formularioC h1{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    width: 92px;
+    
+}
+#frormularioC form{
+    margin-top: 45px;
+    background-color: rgb(255, 196, 0);
+    width: 95%;
+    margin: auto;
+    max-width: 500px;
+
+}
+#formularioC input{
+    margin: 10px;
+    padding: 5px;
+    
+
+}
+#formularioC .contenedor-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.col-p{
+    width: 40%;
+
+}
+.col-g{
+    width: 90%;
+}

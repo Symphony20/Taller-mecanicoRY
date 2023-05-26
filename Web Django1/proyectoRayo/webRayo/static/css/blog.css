@@ -1,0 +1,24 @@
+#blog{
+    font-family: cursive;
+    text-align: center;
+    color: aquamarine;
+    background-color: brown;
+
+}
+#blog .contendor img{
+    width: 300;
+    height: 250;
+    border: solid 2px brown;
+    border-radius: 20px;
+}
+#blog .contendor{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    flex-wrap: wrap;
+
+}
+#blog .contendor article{
+    margin: 10px;
+    
+}

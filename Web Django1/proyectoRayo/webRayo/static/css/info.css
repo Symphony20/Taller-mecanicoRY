@@ -1,0 +1,13 @@
+#info{
+    background: black;
+    margin-top: 45px;
+    color: azure;
+    padding: 20px;
+
+}
+#info .contendor img{
+    width: 180px;
+    height: 180px;
+    border: solid 5px white;
+    border-radius: 50%;
+}

@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block contenido %}
+  {% load static %}
+          <section id="bienvenidos">
+            <h2>Bienvenidos al mejor taller de autos</h2>
+            <img src="{% static 'img/car-icon-illustration-free-vector.jpg' %}" alt="Bootstrap" width="30" height="24">
+            
+        </section>
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'img/toyota_yaris_blanco_8860338_0.jpg' %}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>trabajo de Pintura</h2>
+        <p>La pintura para automóviles debe ser de alta calidad, lo que implica la presencia de ciertas propiedades en ella.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/foto3.jpg' %}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Mantenimiento</h2>
+        <p>n primer lugar debes saber que el objetivo de darle mantenimiento a tu automóvil es para evitar los daños por causa del desgaste de sus componentes por el manejo diario, revisando cada cierto número de kilómetros todos los elementos del vehículo, como el sistema de frenos.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/vende-vehiculo-excelente-estado-202303101809421678482582680508-1.webp' %}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Desabolladura</h2>
+        <p>La desabolladura es un proceso que consiste en recuperar o restaurar la estructura de un vehículo que estuvo implicado en un accidente. Así, usando diversas herramientas especializadas, se espera que la carrocería vuelva a su condición original..</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/foto1.jpg' %}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Third slide label</h2>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/vende-vehiculo-excelente-estado-202303101809421678482582680508-1.webp' %}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Third slide label</h2>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/foto2.jpg' %}" class="d-block B-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Third slide label</h2>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+{% endblock contenido %}

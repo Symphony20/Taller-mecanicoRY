@@ -1,0 +1,139 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Mecanico Rayo Mackween</title>
+    <link rel="stylesheet" href="{% static 'css/fontello.css' %}">
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+</head>
+<body background="{% static 'img/fondooo.jpg' %}">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <nav class="navbar bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="{% static 'img/car-icon-illustration-free-vector.jpg' %}" alt="Bootstrap" width="30" height="24">
+              </a>
+            </div>
+        </nav>
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Taller Mecanico Rayo Mackween</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{% url 'INIC' %}">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% url 'GALE' %}">Galeria</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="{% url 'FORMU' %}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Formulario
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="{% url 'LOG' %}">login</a></li>
+                      <li><a class="dropdown-item" href="{% url 'FORMU' %}">Fromulario cliente</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="{% url 'ADM' %}">administracion</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header> 
+    <main>
+        <section id="banner">
+            <img src="{% static 'img/oficinas-auto-1200x675.png' %}" alt="">
+            <div class="contenedor">
+                <h1>Prefiera el mejor servicio</h1>
+                <p>¿Cual es servicio que le podemos brindar?</p>
+                <a href="autos.html">Ver mas...</a>
+            </div>
+        </section>
+        <!----biwnve---->
+        <section id="bienvenidos">
+            <h2>Bienvenidos al mejor taller de autos</h2>
+            <img src="{% static 'img/car-icon-illustration-free-vector.jpg' %}" alt="Bootstrap" width="30" height="24">
+            
+        </section>
+    </main>   
+  </section  id="blogCard">
+    
+</div>      
+   <section id="cartasInde">
+
+    <div class="card-group">
+      <div class="card">
+        <img src="{% static 'img/desabolladura.jpg' %}" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <h2 class="card-title">DESABOLLADURA</h2>
+          <p class="card-text">La desabolladura es un proceso que consiste en recuperar o restaurar la estructura de un vehículo que estuvo implicado en un accidente..</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <a href="autos.html" class="btn btn-primary">Ver mas...</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="{% static 'img/pintura.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">PINTURA</h3>
+          <p class="card-text">Si tu auto ya tiene unos años o ha sufrido algún choque, dependiendo de la gravedad de los daños, una alternativa es llevarlo a un taller de pintura..</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <a href="galeria.html" class="btn btn-primary">Ver mas...</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="{% static 'img/mantenimiento.jpg' %}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h2 class="card-title">MANTENIMIENTO PREVENTIVO</h2>
+          <p class="card-text"> revisiones que se llevan a cabo de forma periódica con el fin de evitar algún tipo de falla en el auto que pueda ocasionar su mal funcionamiento.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <a href="autos.html" class="btn btn-primary">Ver mas...</a>
+        </div>
+      </div>
+    </div>
+   </section>    
+
+
+</div>
+        <section>
+          <div>
+            <div class="card">
+              <img src="{% static 'img/file_20191008113907.jpg' %}" class="card-img-top" alt="...">
+            
+              <div class="card-body">
+                <h2 class="card-title">Trabajo realizado por nuestros mecanicos </h2>
+                <h4><p class="card-text">Este trabajo consistio en pintar el auto por  completo dandole una capa de preteccion al vehiculo para evitar daños futuros y lucir siempre como nuevo </p></h4>
+                <p>Cliente muy satisfecho con el resultado</p>
+                <a href="galeria.html" class="btn btn-primary">Ver mas ...</a>
+              </div>
+            </div>
+        </section>
+
+    <footer>
+      <div style="margin: auto;padding: 40px;text-align: center; background-color: rgb(123, 255, 0);">
+        <p><h1>Taller Mecanico Rayo Mackween</h1></p>
+        <img src="{% static 'img/car-icon-illustration-free-vector.jpg' %}" alt="Bootstrap" width="70" height="80">
+        <h2>Para mas informacion contactanos a traves de nuestro numero telefonico o redes sociales</h2>
+        <h3>600 600 6000</h3>
+        <img src="{% static 'img/descarga (1).jpg' %}" alt="">
+        <h4>@rayo</h4>
+        <a href="base.html" class="btn btn-primary">Ver mas ...</a>
+      </div>
+    </footer>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}" ></script>
+</body>
+</html>

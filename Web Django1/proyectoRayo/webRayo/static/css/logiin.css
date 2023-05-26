@@ -1,0 +1,39 @@
+#logiin{
+    background-color: brown;
+    color: aquamarine;
+    padding: 50px;
+}
+#logiin form{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    width: 92px;
+    
+}
+#logiin form{
+    margin-top: 45px;
+    background-color: rgb(255, 196, 0);
+    width: 95%;
+    margin: auto;
+    max-width: 500px;
+
+}
+#logiin input{
+    margin: 10px;
+    padding: 5px;
+    
+
+}
+#logiin .contene{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.mb-3{
+    width: 40%;
+
+}
+.mb-3{
+    width: 90%;
+}
